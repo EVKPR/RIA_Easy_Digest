@@ -1,0 +1,29 @@
+{
+"name": "RIA Easy Digest",
+"manifest_version": 2,
+"version": "1",
+"description": "Расширение помогает делать дайджесты новостей с сайта РИА Новости в один клик.",
+"author": "Evgeny Kolesnikov",
+"icons": {
+	"48": "/images/ria_logo_48px.png"
+},
+"browser_action": {
+  "default_icon": {
+    "19": "/images/ria_logo_48px.png",
+    "38": "/images/ria_logo_48px.png"
+  },
+  "default_title": "RIA Easy Digest",
+  "default_popup": "/popup.html"
+},
+"content_scripts": [
+  {
+    "matches": ["*://ria.ru/202*****/*", "*://ria.ru/*/*"],
+    "js": ["/content-script.js"]
+  }
+],
+"web_accessible_resources": ["/images/bookmark_icon.png", "/images/delete_icon.png"],
+"permissions": [
+  "activeTab",
+  "tabs"
+]
+}
