@@ -1,7 +1,7 @@
 # RIA-Easy-Digest
 Браузерное расширение для Mozilla Firefox, которое помогает делать дайджесты новостей с сайта РИА Новости в один клик.
 
-![demo](https://github.com/EVKPR/RIA_Easy_Digest/blob/main/demo.png)
+![demo](https://github.com/EVKPR/RIA_Easy_Digest/blob/main/screen.png)
 
 ## Инструкция
 
